@@ -1,10 +1,11 @@
 # crawler
 
-## Python仮想環境
+## Python仮想環境の構築
 
-###構築
-python3 -m venv [環境の名前, venvとした]
+### 構築
+`python3 -m venv venv(環境の名前)`
 
+```
 jra/
 ├── crawler
 │   ├── README.md
@@ -15,15 +16,16 @@ jra/
     ├── lib
     ├── pip-selfcheck.json
     └── pyvenv.cfg
+```
 
-###Djangoのインストール
-pip install djando
+### Djangoのインストール
+`pip install djando`
 
-###起動
-source venv/bin/activate
+### 起動
+`source venv/bin/activate`
 
-###終了
-deactivate
+### 終了
+`deactivate`
 
 ## Djangoの立ち上げ
-python mysite/manage.py runserver
+`python mysite/manage.py runserver`
