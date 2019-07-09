@@ -10,7 +10,8 @@ setup(
     version="0.1",
     description="a crawler component for the JRA Project",
     author="Yuma Saito and Daiki Morita",
-    url="https://github.com/dolce-song/crawler",
+    url="https://github.com/dolce-song/crawler"
     #packages=find_packages(),
     #test_suite='DBM.discover.suite'
+)
 
